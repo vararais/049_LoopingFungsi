@@ -12,3 +12,15 @@ for (i = 150; i > 100; i-+10)
 
 }
 cout << "Nilai i Terakhir = " << i << endl;
+
+for (i = 0; i < 5; i++){
+    cout << "Masukan nama ke-" << i << ":";
+    cin >> nama[i];
+}
+
+for (i = 0; i < 5; i++){
+    cout << "Nama ke-" << i << ": " << nama[i] << endl;
+
+}
+
+}
